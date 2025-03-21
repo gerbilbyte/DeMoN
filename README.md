@@ -19,6 +19,7 @@ This project will give a brief introduction about DeMoN, how it came to be, its 
 [Build Your Own](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#build-your-own-demon-cartridge)
 
 * [Firmware](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#firmware) 
+* [Flashing](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#flashing) 
 * [Cartridge Case](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#cartridge-case)
    
 [Related Projects](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#related-projects)
@@ -108,6 +109,58 @@ This repo does not contain firmware, but it does contain a patch file that can b
 Tools are included with instructions in this repo on how to patch an Action Replay III ROM file.
 
 DeMoN uses Action Replay firmware, including modified firmware and homebrews. The latest version of the DeMoN (Action Replay 5) firmware will soon be available on REbEL's GitHub repo.
+
+
+### Flashing.
+
+#### **Flashing using a chip programmer**
+
+All tools required for flashing can be found in the FirmwareTools folder of this repo.
+To prepare the firmware for the flash chips the following steps can be taken:
+* Prepare the firmware by using the patchfile and the AR3 image to obtain the firmware:
+
+   ```python3 DeMoNpatcher.py <AR3rom file> <DeMoNpatch file>```
+
+* Split the file to be used for programming the chips. The obtained files are self descriptive:
+
+   ```python3 firmwareSplitter.py <input_file>```
+
+* Power-cycle the Amiga.
+And that's it! Enjoy the cartridge! :)
+
+
+#### **Flashing using the stand-alone flash tool**
+
+All tools required for stand-alone flashing - along with detailed instruction on how to use it - can be found in the Standalone Flash Tool folder of this repo.
+But in a nutshell, the process is as follows:
+* Set JP1 on the DeMoN to pins 2-3 to make the DeMoN memory visible to the Amiga.
+* Set JP2 on the DeMoN to pins 2-3 to functionally deactivate the DeMoN.
+* Prepare an Amiga floppy disk that includes a standard bootblock (without starup-sequence), the ar5flasher tool and also the firmware
+* Load disk and enter the following command, following any futher on screen instructions:
+
+   ```ar5flasher firmware.rom```
+
+* Power-cycle the Amiga.
+And that's it! Enjoy the cartridge! :)
+
+
+#### **Flashing using the FLASH tool on DeMoN**
+All that is needed for this method is the firmware on a floppy disk.
+* Set JP1 on the DeMoN to pins 2-3 to make the DeMoN memory visible to the Amiga.
+* Copy the firmware onto a floppy, and insert it into the drive.
+* Press DeMoN freeze button.
+* At the console type in the following command, following any futher on screen instructions:
+
+   ```flash firmware.rom```
+
+   The flashing and verifying will take place. After verifying, the screen will change colour to match one of the following conditions:
+  
+   Red = Failed flash. An error has happened causing the checksums of the firmware file and the on-board firmware to differ.
+
+   Green = Successful flash!
+* Power-cycle the Amiga.
+And that's it! Enjoy the cartridge! :)
+
 
 ### Cartridge Case.
 The case:
