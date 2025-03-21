@@ -29,16 +29,19 @@ o12.oe = vcc
 /o13 = /rst & /o16(hlt)
 o13.oe = vcc
 
-(connected to 74ls74 clock input)
+(connected to 74ls74 clock input - counts write cycles after activation)
        address valid and writing and not activating and not enabled
 /o14 = /as & /r_w & i4 & o15
 o14.oe = vcc
 
-(enable A22 hack)
-/o15 = /rst +
+(disable A22 hack)
+/o15 = 
+       disable on reset
+       /rst +
+       disable a22 hack on 3rd memory write after triggering
        /i3 & /i7 & rst +
 			 
-			 keep enabled while i4 is high and already enabled
+			 keep disabled once disabled until cart is activated
        i4 & /o15
 o15.oe = vcc
 
