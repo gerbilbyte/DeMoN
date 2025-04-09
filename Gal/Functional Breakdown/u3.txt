@@ -22,7 +22,7 @@ i1 i2 i3
 0  0  0  = 40000x
 1  0  0  = bfe001
 0  1  0  = bfd100
-1  1  0  = 000000
+1  1  0  = 000008
 0  0  1  = dffxxx
 1  0  1  = 44xxxx
 0  1  1  = 40xxxx
@@ -40,7 +40,7 @@ bfe001 (read from bfe001 and not running)
        i1 & /i2 & /i3 & /oe & /lds & /as & o16 +
 bfd100 (write to bfd100 and not running)
        /i1 & i2 & /i3 & /uds & oe & /as & o16 +
-000000 (access address 0 after reset and not running)
+000000 (access address 8 after reset and not running)
        i1 & i2 & /i3 & o13 & /as & o16 +
 
      keep triggering while already triggered reading code and not halt or reset
