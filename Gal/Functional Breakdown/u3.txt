@@ -46,7 +46,7 @@ bfd100 (write to bfd100 and not running)
      keep triggering while already triggered reading code and not halt or reset
        i5 & /fc0 & /o15 +
 			 
-		 keep triggering while already triggered and exe address <> xxxxE  not halt or reset
+		 keep triggering while already triggered and not interrupt acknowledge cycle and not halt or reset
        i5 & i8 & /o15 +
 
      keep triggering while already triggered and as high and not halt or reset

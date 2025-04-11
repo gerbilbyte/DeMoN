@@ -14,8 +14,8 @@ Outputs:
 19 (Combinatorial, Output feedback output, Active low)
 
 i4 = trigger nmi
-i3 = a22 hack active
-i7
+i3 = Q output from U6A (a22 hack active)
+i7 = Q output U6B
 
 i5 slowmo halt tick
 i6 slowmo enabled

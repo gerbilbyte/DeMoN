@@ -71,9 +71,7 @@ o19.oe = vcc
 
 
 
-
-        xxxxxE
-
+(detects 68000 interrupt acknowledge cycle)
         1    1          1   x
 /o14 = A3 & A2 & FC1 & A1
 o14.oe = vcc
