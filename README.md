@@ -21,6 +21,7 @@ This project will give a brief introduction about DeMoN, how it came to be, its 
 * [Firmware](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#firmware) 
 * [Flashing](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#flashing) 
 * [Cartridge Case](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#cartridge-case)
+* [License](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#license)
    
 [Related Projects](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#related-projects)
 
@@ -161,11 +162,6 @@ All that is needed for this method is the firmware on a floppy disk.
 * Power-cycle the Amiga.
 And that's it! Enjoy the cartridge! :)
 
-#### License
-
-This work is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
-
 
 ### Cartridge Case.
 The case:
@@ -173,6 +169,11 @@ The case:
 ![image](https://github.com/user-attachments/assets/43b0c059-f1ed-4a13-a80b-2d65ea440d6b)
 
 Basing the case on Fongo's [Action Replay 3 Replica case](https://www.printables.com/model/1037033-amiga-action-replay-3-replica-case), modifications have been made to cater for the jumpers on the DeMoN.
+
+
+### License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 
 ## Related Projects.
