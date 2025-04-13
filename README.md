@@ -161,7 +161,7 @@ All that is needed for this method is the firmware on a floppy disk.
 * Power-cycle the Amiga.
 And that's it! Enjoy the cartridge! :)
 
-# License
+#### License
 
 This work is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
