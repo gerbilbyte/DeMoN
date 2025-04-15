@@ -18,7 +18,7 @@ This project will give a brief introduction about DeMoN, how it came to be, its 
 
 [Compatibility](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#compatibility)
 
-[DeMoN Manual](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#demon-manual)
+[DeMoN User Manual](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#demon-user-manual)
 
 [Build Your Own](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#build-your-own-demon-cartridge)
 
@@ -102,9 +102,9 @@ We are currently working on expanding this, so watch this space!
 
 
 
-## DeMoN Manual
+## DeMoN User Manual
 
-A usage manual for the DeMoN/Action Replay 5 has been written and can be found on REbEL's [Action Replay 5](https://github.com/dmcoles/ActionReplay5) repo.
+A user manual for the DeMoN/Action Replay 5 has been written and can be found on REbEL's [Action Replay 5](https://github.com/dmcoles/ActionReplay5) repo.
 A direct link to the manual can be found [here](https://github.com/dmcoles/ActionReplay5/blob/main/Action%20Replay%205%20Manual.pdf).
 
 
