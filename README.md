@@ -82,7 +82,7 @@ Other features of the DeMoN cartridge:
 An up-to-date list of current tools and commands will be coming soon.
 
 
-## Compatibility.
+## Compatibility
 DeMoN cart is only compatible with A500 and A500+ computers.
 
 It has been tested on the following kickstarts:
