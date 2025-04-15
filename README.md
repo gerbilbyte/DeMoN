@@ -18,6 +18,8 @@ This project will give a brief introduction about DeMoN, how it came to be, its 
 
 [Compatibility](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#compatibility)
 
+[DeMoN Manual](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#demon-manual)
+
 [Build Your Own](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#build-your-own-demon-cartridge)
 
 * [Firmware](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#firmware) 
@@ -79,10 +81,11 @@ Other features of the DeMoN cartridge:
   * rfy, sfy: Send and receive files via Y-Modem (currently a Work In Progress). 
   * ...plus many, many more!
 
-An up-to-date list of current tools and commands will be coming soon.
+See the [manual](https://github.com/dmcoles/ActionReplay5/blob/main/Action%20Replay%205%20Manual.pdf) for a full list of commands available.
 
 
 ## Compatibility
+
 DeMoN cart is only compatible with A500 and A500+ computers.
 
 It has been tested on the following kickstarts:
@@ -96,6 +99,15 @@ It has been tested on the following kickstarts:
  * 3.2.x
 
 We are currently working on expanding this, so watch this space!
+
+
+
+## DeMoN Manual
+
+A usage manual for the DeMoN/Action Replay 5 has been written and can be found on REbEL's [Action Replay 5](https://github.com/dmcoles/ActionReplay5) repo.
+A direct link to the manual can be found [here](https://github.com/dmcoles/ActionReplay5/blob/main/Action%20Replay%205%20Manual.pdf).
+
+
 
 ## Build Your Own DeMoN Cartridge.
 
@@ -126,7 +138,7 @@ Once built, your cartridge will now need firmware.
 This repo does not contain firmware, but it does contain a patch file that can be used to patch the original Action Replay III (version 3.17) ROM.
 Tools are included with instructions in this repo on how to patch an Action Replay III ROM file.
 
-DeMoN uses Action Replay firmware, including modified firmware and homebrews. The latest version of the DeMoN (Action Replay 5) firmware will soon be available on REbEL's GitHub repo.
+DeMoN uses Action Replay firmware, including modified firmware and homebrews. The latest version of the DeMoN (Action Replay 5) firmware is available on REbEL's GitHub repo which can be found [here](https://github.com/dmcoles/ActionReplay5).
 
 
 ### Flashing.
@@ -195,7 +207,7 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 ## Related Projects.
 
-**REbEL**, the author of the DeMoN firmware has an open project (Action Replay 5) that can be found here. This repo contains firmware that can be used in WinUAE as well as DeMoN. These will be up-to-date and more stable, including source code. His main github page can be found [here](https://github.com/dmcoles).
+**REbEL**, the author of the DeMoN firmware has an open project (Action Replay 5) that can be found [here](https://github.com/dmcoles/ActionReplay5). This repo contains firmware that can be used in WinUAE as well as DeMoN. These will be up-to-date and more stable, including source code. His main github page can be found [here](https://github.com/dmcoles).
 
 **na103**, who reverse engineered the Action Replay 3, has posted his project here. This repo contains several versions of the Action Replay 3 for different ROM footprints. His main github page can be found [here](https://github.com/na103).
 
