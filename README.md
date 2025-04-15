@@ -16,6 +16,8 @@ This project will give a brief introduction about DeMoN, how it came to be, its 
 
 [DeMoN features](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#features)
 
+[Compatibility](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#compatibility)
+
 [Build Your Own](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#build-your-own-demon-cartridge)
 
 * [Firmware](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#firmware) 
@@ -79,6 +81,21 @@ Other features of the DeMoN cartridge:
 
 An up-to-date list of current tools and commands will be coming soon.
 
+
+## Compatibility.
+DeMoN cart is only compatible with A500 and A500+ computers.
+
+It has been tested on the following kickstarts:
+*1.3
+*2.04
+*2.05
+*3.0
+*3.1
+*3.x
+*3.1.4
+*3.2.x
+
+We are currently working on expanding this, so watch this space!
 
 ## Build Your Own DeMoN Cartridge.
 
