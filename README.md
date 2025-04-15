@@ -86,14 +86,14 @@ An up-to-date list of current tools and commands will be coming soon.
 DeMoN cart is only compatible with A500 and A500+ computers.
 
 It has been tested on the following kickstarts:
-*1.3
-*2.04
-*2.05
-*3.0
-*3.1
-*3.x
-*3.1.4
-*3.2.x
+ * 1.3
+ * 2.04
+ * 2.05
+ * 3.0
+ * 3.1
+ * 3.x
+ * 3.1.4
+ * 3.2.x
 
 We are currently working on expanding this, so watch this space!
 
