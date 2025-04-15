@@ -15,7 +15,7 @@ i2 = O13 on U2
 i3= O12  on U2
 
 i5 = /rst & /hlt
-i8 = exe address = xxxxE
+i8 = interrupt acknowledge cycle
 i6 = nmi button
 
 i1 i2 i3
