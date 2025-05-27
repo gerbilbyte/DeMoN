@@ -195,9 +195,10 @@ And that's it! Enjoy the cartridge! :)
 ### Cartridge Case.
 The case:
 
-![image](https://github.com/user-attachments/assets/43b0c059-f1ed-4a13-a80b-2d65ea440d6b)
+![image](https://github.com/user-attachments/assets/d45c8bf2-c362-421a-aed6-7b5a509b44b4)
 
-Basing the case on Fongo's [Action Replay 3 Replica case](https://www.printables.com/model/1037033-amiga-action-replay-3-replica-case), modifications have been made to cater for the jumpers on the DeMoN.
+
+A case dedicated to DeMoN has been created and can be found [here](https://www.printables.com/model/1307217-amiga-demon-action-replay-5-case). STEP and STL files for this can be found in this repo [here](https://github.com/gerbilbyte/DeMoN/tree/main/3Dcase).
 
 
 ### License
@@ -211,4 +212,4 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 **na103**, who reverse engineered the Action Replay 3, has posted his project here. This repo contains several versions of the Action Replay 3 for different ROM footprints. His main github page can be found [here](https://github.com/na103).
 
-**Fongo**, the creator of the Action Replay Replica Case. His Printables page can be found [here](https://www.printables.com/@fongo2k_2502418).
+**Fongo**, the creator of the Action Replay Replica and DeMoN Cases. His Printables page can be found [here](https://www.printables.com/@fongo2k_2502418).
